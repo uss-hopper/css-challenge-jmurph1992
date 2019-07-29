@@ -69,7 +69,7 @@ header {
 }
 
 header div {
-	color: red;
+	color: #00FF00;
 	font-family: Consolas, sans-serif;
 	text-align: center;
 }
@@ -98,8 +98,8 @@ section div div img {
 	display: block;
 	border-style: solid;
 	border-width: 5px;
-	padding-bottom: 0;
-	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 	font-family: Consolas, sans-serif;
 }
 
@@ -116,10 +116,89 @@ section div div {
 }
 
 .about-me {
-	display: inline-block;
+	display: block;
+	background-color: blue;
+	font-family: Consolas, sans-serif;
+	padding-top: 20px;
+	margin-top: 40px;
+
 }
 
 .about-me img {
-	height: 230px;
-	width: 300px;
+	height: 280px;
+	width: 350px;
+	float: left;
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	margin-top: 60px;
+	margin-right: 40px;
+}
+
+.about-me h2 {
+	text-align: left;
+	color: white;
+	margin: 0;
+	padding-left: 20px;
+	padding-top: 80px;
+}
+
+.about-me p {
+	text-align: left;
+	color: white;
+}
+
+.about-me span {
+	color: yellow;
+}
+
+section table {
+	font-family: Consolas, sans-serif;
+	color: #00FF00;
+	border: 1px solid white;
+	display: block;
+	padding-left: 0;
+	padding-top: 20px;
+}
+
+td, th {
+	border: 0 solid white;
+	background-color: #333333;
+	padding: 20px 215px 20px 20px;
+	margin-right: 50px;
+	text-align: left;
+}
+
+.form-wrapper {
+	background-color: #006400;
+	padding-top: 50px;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	padding-right: 900px;
+	justify-content: space-between;
+	font-family: Consolas, sans-serif;
+	color: #00FF00;
+}
+
+form button {
+	background-color: #00FF00;
+	font-family: Consolas, sans-serif;
+	height: 30px;
+	width: 100px;
+	border: 0 solid #00FF00;
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	font-family: Consolas, sans-serif;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
